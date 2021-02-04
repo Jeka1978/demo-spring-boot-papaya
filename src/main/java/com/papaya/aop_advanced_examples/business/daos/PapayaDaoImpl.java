@@ -1,4 +1,4 @@
-package com.papaya.aop_advanced_examples;
+package com.papaya.aop_advanced_examples.business.daos;
 
 import com.papayastarterexample.demo.MariaDbException;
 import org.springframework.stereotype.Repository;

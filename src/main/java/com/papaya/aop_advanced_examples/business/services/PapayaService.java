@@ -1,5 +1,6 @@
-package com.papaya.aop_advanced_examples;
+package com.papaya.aop_advanced_examples.business.services;
 
+import com.papaya.aop_advanced_examples.business.daos.PapayaDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

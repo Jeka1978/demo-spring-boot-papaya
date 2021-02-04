@@ -1,4 +1,4 @@
-package com.papaya.aop_advanced_examples;
+package com.papaya.aop_advanced_examples.business.daos;
 
 /**
  * @author Evgeny Borisov
