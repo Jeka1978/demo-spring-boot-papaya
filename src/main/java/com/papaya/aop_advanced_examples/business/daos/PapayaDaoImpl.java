@@ -11,6 +11,6 @@ public class PapayaDaoImpl implements PapayaDao {
     @Override
     public void saveSomeData() {
         System.out.println("start saving...");
-        throw new MariaDbException("fire all DBA");
+        throw new MsqlPostgresException("fire all DBA");
     }
 }
