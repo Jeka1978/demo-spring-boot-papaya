@@ -1,6 +1,7 @@
 package com.papaya.aop_advanced_examples.business.controllers;
 
 import org.springframework.context.annotation.Profile;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
 
 /**
@@ -11,6 +12,7 @@ import org.springframework.stereotype.Component;
 //spring.profiles.active
 public class PredictionServiceImpl implements PredictionService {
     @Override
+    @Async("myEXS")
     public boolean willSurvive(String name) {
         return !name.toLowerCase().contains("stark");
     }
